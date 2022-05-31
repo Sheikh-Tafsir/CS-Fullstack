@@ -64,7 +64,7 @@ console.log(wordBlanks("dog","big","ran","quickly"));*/
 /*var ourArray=["tafsir",21];
 for(i=0;i<ourArray.length;i++){
   console.log(ourArray[i]);
-}*/
+}
 
 var ourArray=[["tafsir",21],["the universe",42] ];
 ourArray.push(["sakib",28]);
@@ -74,3 +74,68 @@ for(i=0;i<ourArray.length;i++){
 //ourArray.pop();
 ourArray.shift();
 console.log(ourArray)
+
+if(3===3)console.log(true);
+else console.log(false);
+
+function isLess(a,b){
+  return a<b;
+}
+console.log(isLess(20,15));*/
+
+/*function lookUp(val){
+  var ourDog={
+    "name": "quincy",
+    "legs":4,
+    "friends": ["everything"],
+    "bark":"woof"
+  };
+  return ourDog[val];
+}
+function lookUp(val){
+  var ourDog={
+    "name": "quincy",
+    "legs":4,
+    "friends": ["everything"],
+    "bark":"woof"
+  };
+  if(ourDog.hasOwnProperty(val))return "found";
+  else return "not found";
+}
+
+
+console.log(lookUp("legss"));
+
+console.log((Math.random() *10));*/
+
+/*function converter(str){
+  return parseInt(str,2);
+}
+console.log(converter("10"));
+
+function ternary(num){
+  return num>0? "positive": num<0? "negetive":"zero";
+}
+console.log(ternary(-10));*/
+
+
+/*const MATH_CONSTANT={
+  PI: 3.14
+};
+Object.freeze(MATH_CONSTANT);
+
+try{
+  MATH_CONSTANT.PI=99;
+  console.log(MATH_CONSTANT.PI);
+}
+catch(ex){
+  console.log(ex);
+}*/
+
+const sum = (function(){
+  return function(... args){
+    return args.reduce((a,b)=>a+b,0)
+  };
+})();
+
+console.log(sum(1,2,3));
