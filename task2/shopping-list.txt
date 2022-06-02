@@ -1,0 +1,6 @@
+const myList = [];
+myList.push(["Chocolate Bar", 15]);
+myList.push(["Rice", 25]);
+myList.push(["Oil", 85]);
+myList.push(["Meat", 105]);
+myList.push(["Coke", 20]);

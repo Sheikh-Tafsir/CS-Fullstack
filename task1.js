@@ -132,10 +132,57 @@ catch(ex){
   console.log(ex);
 }*/
 
-const sum = (function(){
+/*const sum = (function(){
   return function(... args){
     return args.reduce((a,b)=>a+b,0)
   };
 })();
 
-console.log(sum(1,2,3));
+console.log(sum(1,2,3));*/
+
+/*const createPerson =(name,age,gender) =>({
+ 
+    name: name,
+    age: age,
+    gender:gender
+});
+
+console.log(createPerson("tafsir",22,"male"));*/
+
+/*var SpaceShuttle=function(targetPlanet){
+  this.targetPlanet=targetPlanet;
+}
+var zeus =new SpaceShuttle("Jupiter");
+console.log(zeus)*/
+
+/*class SpaceShuttle{
+  constructor(targetPlanet){
+    this.targetPlanet=targetPlanet;
+  }
+}
+var zeus=new SpaceShuttle("Jupiter");
+console.log(zeus)*/
+
+/*class Book{
+  constructor(author){
+    this.author=author;
+  }
+  get writer(){
+    return this.author;
+  }
+  set writer(updateAuthor){
+    this.author=updateAuthor;
+  }
+}
+var moddhodupur=new Book("Humyaun Ahmed");
+moddhodupur.author="himu";
+console.log(moddhodupur);*/
+
+// Setup
+const myArray = [];
+var x=5;
+while(x>=0){
+  myArray.push(x);
+  x--;
+}
+console.log(myArray)
