@@ -7,15 +7,16 @@
 </p>
 
 ## IUTCS Logo
-![1](https://user-images.githubusercontent.com/83116065/170730600-b4c3d919-5926-4739-b378-e0536fcdd713.JPG)
+![1](https://user-images.githubusercontent.com/83116065/171470189-795fdab2-9d3b-49c6-935a-a71110bd936b.JPG)
 
 ## Learnings
 ### Backend
 - JavaScript
+- FreeCodeCamp js practice
 
 ### Frontend
 - JavaScript
-
+- FreeCodeCamp js practice
 
 ## Languages & Tools
 
