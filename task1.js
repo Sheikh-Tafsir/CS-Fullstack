@@ -179,10 +179,10 @@ moddhodupur.author="himu";
 console.log(moddhodupur);*/
 
 // Setup
-const myArray = [];
-var x=5;
-while(x>=0){
-  myArray.push(x);
-  x--;
+let processed = 0;
+
+function processArg(num) {
+  var processed=(num + 3) / 5;
+  return processed;
 }
-console.log(myArray)
+console.log(processArg(7));
