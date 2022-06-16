@@ -13,10 +13,11 @@
 ### Backend
 - JavaScript
 - FreeCodeCamp js practice
-
+- Quiz App (frontened)
 ### Frontend
 - JavaScript
 - FreeCodeCamp js practice
+- Quiz App (frontened)
 
 ## Languages & Tools
 
